@@ -38,8 +38,8 @@ The goal of this project was to create a simulated medical device in C. For this
 <strong>Exceptions:</strong> Like other events or task, this task is dependant on if the data received has been uncorrupted or not. So for this task to function correctly, it relies on if the measure and compute task functioned correctly in order to send back correct updates of the patient’s status to the remote website. <br>
 
 <strong>Name: Command Handling</strong><br>
-Description:This event handles managing commands that are sent from the remote website.  These commands are checked if they are valid or not. If the command is valid, it will set the medical device system to the appropriate state depending on the command sent out.<br>
-Exceptions:In terms of this task functioning correctly and not triggering any actions to the system, if the command that was sent from the remote site was not valid, this task will then not send a command to the medical device system. If the remote site is not operational, this task will not trigger because there are no commands being sent out for this task to manage. <br>
+<strong>Description:</strong>This event handles managing commands that are sent from the remote website.  These commands are checked if they are valid or not. If the command is valid, it will set the medical device system to the appropriate state depending on the command sent out.<br>
+<strong>Exceptions:</strong>In terms of this task functioning correctly and not triggering any actions to the system, if the command that was sent from the remote site was not valid, this task will then not send a command to the medical device system. If the remote site is not operational, this task will not trigger because there are no commands being sent out for this task to manage. <br>
 
 <hr>
 
