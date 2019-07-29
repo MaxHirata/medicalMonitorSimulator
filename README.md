@@ -9,8 +9,8 @@ The goal of this project was to create a simulated medical device in C. For this
 
 <h4>Features</h4>
 
-<strong>Name: Measure <strong><br>
-Description: Gets temperature, blood pressure ,and pulse rate information from the patient and brings it into the medical device system. <br>
+<strong>Name: Measure </strong><br>
+<strong>Description:</strong> Gets temperature, blood pressure ,and pulse rate information from the patient and brings it into the medical device system. <br>
 Exception: If an external source interferes with the device, this task could possibly not trigger or function incorrectly by reading corrupted data.<br><br>
 
 Name: EKG <br>
