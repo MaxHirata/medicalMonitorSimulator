@@ -13,6 +13,10 @@ The goal of this project was to create a simulated medical device in C. For this
 <strong>Description:</strong> Gets temperature, blood pressure ,and pulse rate information from the patient and brings it into the medical device system. <br>
 <strong>Exception: </strong>If an external source interferes with the device, this task could possibly not trigger or function incorrectly by reading corrupted data.<br>
 
+<img src="/README_images/blood_pressure.png" width="400">
+<img src="/README_images/pulse-sensor" width="400">
+<img src="/README_images/temp-sensor" width="400">
+
 <strong>Name: EKG </strong><br>
 <strong>Description: </strong>This task collects Electrocardiography (EKG) data over a given period of time and processes it and stored in the medical device. <br>
 <strong>Exceptions:</strong> If an external source interferes with the device, this task could possibly not trigger or function incorrectly by reading corrupted data.<br>
